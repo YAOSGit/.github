@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./images/general.svg" width="100%" alt="YAOS-git" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/general.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/general-light.svg">
+    <img src="./images/general.svg" width="100%" alt="YAOS-git" />
+  </picture>
 </p>
 
 <p align="center">
@@ -27,7 +31,11 @@ The interface is always the terminal. Where interaction is needed, it's a proper
 <td width="50%" valign="top">
 
 <a href="https://github.com/YAOSGit/run-ctx">
-  <img src="./images/run-ctx.svg" width="100%" alt="run-ctx" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/run-ctx.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/run-ctx-light.svg">
+    <img src="./images/run-ctx.svg" width="100%" alt="run-ctx" />
+  </picture>
 </a>
 
 #### `@yaos-git/run-ctx`
@@ -38,7 +46,11 @@ A **context-aware command alias CLI** that resolves aliases to different command
 <td width="50%" valign="top">
 
 <a href="https://github.com/YAOSGit/run-tui">
-  <img src="./images/run-tui.svg" width="100%" alt="run-tui" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/run-tui.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/run-tui-light.svg">
+    <img src="./images/run-tui.svg" width="100%" alt="run-tui" />
+  </picture>
 </a>
 
 #### `@yaos-git/run-tui`
@@ -51,7 +63,11 @@ An **interactive terminal UI** for running multiple npm scripts concurrently wit
 <td width="50%" valign="top">
 
 <a href="https://github.com/YAOSGit/prompt-opm">
-  <img src="./images/prompt-opm.svg" width="100%" alt="prompt-opm" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/prompt-opm.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/prompt-opm-light.svg">
+    <img src="./images/prompt-opm.svg" width="100%" alt="prompt-opm" />
+  </picture>
 </a>
 
 #### `@yaos-git/prompt-opm`
@@ -62,7 +78,11 @@ A **local-first Object Prompt Mapper** that compiles `.prompt.md` files into typ
 <td width="50%" valign="top">
 
 <a href="https://github.com/YAOSGit/mesh-sync">
-  <img src="./images/mesh-sync.svg" width="100%" alt="mesh-sync" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/mesh-sync.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/mesh-sync-light.svg">
+    <img src="./images/mesh-sync.svg" width="100%" alt="mesh-sync" />
+  </picture>
 </a>
 
 #### `@yaos-git/mesh-sync`
@@ -75,7 +95,11 @@ A **cross-repo file sync tool** that keeps files in sync across independent repo
 <td width="50%" valign="top">
 
 <a href="https://github.com/YAOSGit/env-lock">
-  <img src="./images/env-lock.svg" width="100%" alt="env-lock" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/env-lock.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/env-lock-light.svg">
+    <img src="./images/env-lock.svg" width="100%" alt="env-lock" />
+  </picture>
 </a>
 
 #### `@yaos-git/env-lock`
@@ -86,7 +110,11 @@ A **security-first CLI** for encrypted environment injection. Commit secrets to 
 <td width="50%" valign="top">
 
 <a href="https://github.com/YAOSGit/proxy-dev">
-  <img src="./images/proxy-dev.svg" width="100%" alt="proxy-dev" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/proxy-dev.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/proxy-dev-light.svg">
+    <img src="./images/proxy-dev.svg" width="100%" alt="proxy-dev" />
+  </picture>
 </a>
 
 #### `@yaos-git/proxy-dev`
@@ -99,7 +127,11 @@ A **local-first reverse proxy and interceptor CLI** with a TUI dashboard. Interc
 <td colspan="2" align="center">
 
 <a href="https://github.com/YAOSGit/spec-tui">
-  <img src="./images/spec-tui.svg" width="50%" alt="spec-tui" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/spec-tui.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/spec-tui-light.svg">
+    <img src="./images/spec-tui.svg" width="50%" alt="spec-tui" />
+  </picture>
 </a>
 
 #### `@yaos-git/spec-tui`
