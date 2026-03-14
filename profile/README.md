@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  Seven independent CLI tools, each published to npm under <code>@yaos-git/</code>, ISC-licensed.
+  Eight independent CLI tools, each published to npm under <code>@yaos-git/</code>, ISC-licensed.
 </p>
 
 ---
@@ -124,19 +124,34 @@ A **local-first reverse proxy and interceptor CLI** with a TUI dashboard. Interc
 </td>
 </tr>
 <tr>
-<td colspan="2" align="center">
+<td width="50%" valign="top">
 
 <a href="https://github.com/YAOSGit/spec-tui">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./images/spec-tui.svg">
     <source media="(prefers-color-scheme: light)" srcset="./images/spec-tui-light.svg">
-    <img src="./images/spec-tui.svg" width="50%" alt="spec-tui" />
+    <img src="./images/spec-tui.svg" alt="spec-tui" />
   </picture>
 </a>
 
 #### `@yaos-git/spec-tui`
 
-A **keyboard-driven TUI** for exploring, searching, and testing OpenAPI specifications directly from the terminal. A fast, local alternative to Swagger UI and Scalar. Three-pane layout with fuzzy search, schema-driven request forms with real-time Zod validation, and ecosystem integrations with env-lock, mesh-sync, and run-ctx.
+A **keyboard-driven TUI** for exploring, searching, and testing OpenAPI specifications directly from the terminal. A fast, local alternative to Swagger UI and Scalar. Three-pane layout with fuzzy search, schema-driven request forms with real-time Zod validation.
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/YAOSGit/blueprint-tui">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/blueprint-tui.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/blueprint-tui-light.svg">
+    <img src="./images/blueprint-tui.svg" alt="blueprint-tui" />
+  </picture>
+</a>
+
+#### `@yaos-git/blueprint-tui`
+
+An **interactive codebase onboarding TUI** that turns documentation into executable journeys. Define a `.blueprint/` directory with Markdown steps and YAML metadata, and blueprint-tui renders a guided two-pane tour with file teleportation (auto-detected editor support), runnable shell actions, and validation gates that verify completion before progressing.
 
 </td>
 </tr>
